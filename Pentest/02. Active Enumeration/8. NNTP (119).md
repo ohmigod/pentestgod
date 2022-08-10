@@ -1,0 +1,14 @@
+# NNTP
+
+> Network News Transfer Protocol, allows clients to retrieve (read) and post (write) news articles to the NNTP server. Since it relates to reading and writing, we may be able to find helpful information here.
+
+## Banner grabbing
+
+```bash
+nc -nvC $IPADDRESS 119
+```
+
+## Useful commands
+
+* HELP: See what commands are available.
+* LIST: See if there are any articles available to be reads.
